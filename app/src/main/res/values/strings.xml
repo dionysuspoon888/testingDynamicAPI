@@ -1,0 +1,459 @@
+<resources>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="hello">Sample Android Design Support Library App</string>
+
+    <string name="floating_labels">Floating Labels</string>
+    <string name="fab">Floating Action Button</string>
+    <string name="snackbar">Snackbar</string>
+    <string name="tabs">Tabs</string>
+    <string name="coordinator">Coordinator Layout</string>
+
+
+    <string name="app_name">UMP服務點</string>
+    <string name="ump_version_num">Version : 3.1.2 Build 20180327</string>
+    <string name="access_code_example">hcsffu</string>
+
+    <string name="access_code_medical">Medical</string>
+    <string name="access_code_dental">&#160;&#160;Dental&#160;</string>
+
+    <string name="access_code_caption_msg">Exclusively used by UMP corporate clients or insurance members.</string>
+
+    <string name="login_check_version">A new version is available for download. Would you like to update now?</string>
+    <string name="login_check_reminder">Version Update</string>
+
+    <string name="language_zh">中</string>
+    <string name="language_en">ENG</string>
+    <string name="login_download_full">Full</string>
+    <string name="login_download_update">Updates\nOnly</string>
+
+    <string name="check_sum_data_not_match">Server Side Error</string>
+
+    <string name="medical_scheme">\nMedical Scheme</string>
+
+    <!-- string name="main_tab_text_1">Important\nNotes</string>
+    <string name="main_tab_text_2">Eligible\nServices</string>
+    <string name="main_tab_text_3">Other\nServices</string>
+
+    <string name="main_tab_text_1_blank">Important Notes</string>
+    <string name="main_tab_text_1_2">Medical Services</string-->
+
+    <string name="last_data_sync_time">Last Updated:</string>
+
+    <string name="disclaimer_warn">You have to agree with disclaimer</string>
+    <string name="disclaimer_title">Disclaimer</string>
+    <string name="procedure_title">Procedure</string>
+    <string name="disclaimer_startup">Startup Disclaimer\nStartup Disclaimer\nStartup Disclaimer\nDisclaimer Content\nDisclaimer Content\nDisclaimer Content\nDisclaimer Content\nDisclaimer Content\nDisclaimer Content\nDisclaimer Content\nDisclaimer Content\nDisclaimer Content\nDisclaimer Content\nDisclaimer Content\nDisclaimer Content\nDisclaimer Content\n</string>
+
+    <string name="disclaimer_important_notes_previous">Previous Page</string>
+
+    <string name="disclaimer_agree">Agree</string>
+    <string name="disclaimer_disagree">Disagree</string>
+    <string name="disclaimer_ok">OK</string>
+    <string name="disclaimer_cancel">Cancel</string>
+
+    <string name="app_yes">Yes</string>
+    <string name="app_no">No</string>
+
+    <string name="network_title">No Internet Connection</string>
+    <string name="network_go_on">Latest data cannot be downloaded and updated. Would you like to continue?</string>
+    <string name="network_unavailable">Please check your Internet connection.</string>
+
+    <string name="language_switch_text">Language</string>
+    <string name="downlaod_text">Download</string>
+
+    <string name="language_switch_on">Chinese</string>
+    <string name="language_switch_off">English</string>
+
+    <string name="access_code_text">Access Code</string>
+    <string name="access_code_hint">00000000</string>
+    <string name="access_code_btn_text">Login</string>
+    <string name="access_code_empty">Please input valid Panel Doctor List Access Code!</string>
+    <string name="access_code_invalid">Invalid Code</string>
+    <string name="access_code_not">No data found</string>
+    <string name="main_temp_info">Access Code</string>
+    <string name="info_corporate_scheme_btn">Corporate Scheme</string>
+    <string name="info_optional_scheme_btn">Optional Scheme</string>
+    <string name="cms_progress_dialog_title">Loading</string>
+
+    <string name="full_download_dialog_msg"> Full download requires more data usage and time to finish, but ensures data integrity. Would you like to continue?</string>
+    <string name="full_download_new_dialog_msg"> New access code needs a full download, which will require more data and time to finish. Would you like to continue?</string>
+    <string name="full_download_new_app_dialog_msg"> New app version needs a full download, which will require more data and time to finish. Would you like to continue?</string>
+
+    <string name="cms_progress_dialog_msg">Please wait, downloading and updating data &#8230;</string>
+
+    <string name="cms_update_success">Update Success</string>
+    <string name="cms_update_fail">Updating Fail</string>
+
+    <string name="general_scheme">General Scheme</string>
+    <string name="language_switch_btn_text">English</string>
+
+    <string name="downloading_title">Download</string>
+    <string name="downloading_text">Downloading data&#8230;</string>
+
+    <string name="doctor_detail_frag_workhour_text">Opening Hours</string>
+
+    <string name="doctor_detail_frag_map_btn">Map</string>
+    <string name="doctor_detail_frag_phone_btn">Call</string>
+
+    <string name="doctor_detail_frag_share_btn">Share Via</string>
+    <string name="doctor_detail_frag_share_email">E-mail</string>
+    <string name="doctor_detail_frag_share_whatsapp">WhatsApp</string>
+    <string name="doctor_detail_emailshare_app">Send E-mail</string>
+    <string name="doctor_detail_frag_share_cancel">Cancel</string>
+
+    <string name="google_map_toast">UMP Google Map Toast</string>
+    <string name="google_map_title">Google Map</string>
+    <string name="google_map_searching">Searching Address&#8230;</string>
+    <string name="google_map_no_position_found_toast">Can not find this address</string>
+
+    <string name="invalid_phone_num">Invalid Phone Num</string>
+    <string name="doctor_detail_frag_share_sms">SMS</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_doctorlist">Doctor List</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_esubmission">ESubmissionActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Ho Setting -->
+    <string name="system_setting">Setting</string>
+    <string name="show_tutorial_at_start">Show tutorial at start</string>
+    <string name="show_tutorial_zh">Show</string>
+    <string name="show_tutorial_en">No Show</string>
+
+    <!-- Home Page Tab -->
+    <string name="hong_kong_region">Hong Kong</string>
+    <string name="china_region">China</string>
+    <string name="macau_region">Macau</string>
+    <string name="home_title">Add Medical Card</string>
+    <string name="doctor_list_title">Doctor List</string>
+    <string name="non_network_claims">Non-network Claims</string>
+    <string name="setting_title">Setting</string>
+
+    <!-- EClaim Login-->
+    <string name="login_instruction">"Login "</string>
+    <string name="eclaim_login_disclaimer">Exclusively used by UMP designated clients or insurance members.</string>
+    <string name="scheme_code">Scheme Code</string>
+    <string name="login_id">Login ID</string>
+    <string name="password">Password</string>
+    <string name="declaration_and_service_coverage">Declaration and Authorization</string>
+    <string name="UMP_Membership_No">Staff’s UMP Membership No.</string>
+    <string name="validate_required_scheme_code">Please enter Scheme Code</string>
+    <string name="please_enter_first_four_hkid">Please enter first four characters of your HKID as Password.</string>
+
+    <!-- EClaim Submission Page-->
+    <string name="please_select">Please select</string>
+    <string name="select_patient">Select Claimant</string>
+    <string name="select_type_of_claim">Select Type of Claim</string>
+    <string name="change_claim_type_alert_message">Change type of claim will remove selected photo</string>
+
+    <!-- Step 2-->
+    <string name="currency_of_the_receipt">Currency of the Receipt</string>
+    <string name="total_amount_of_the_receipt">Total Amount of the Receipt</string>
+    <string name="submitted_claim_other_insurers">Have you submitted claim request to other insurer(s) with this receipt?</string>
+    <string name="amount_already_paid_by_other_insurer">Amount already settled\nby other insurer(s)</string>
+    <string name="date_of_consultation">Date of Consultation\n(dd/mm/yyyy)</string>
+    <string name="diagnosis">Diagnosis</string>
+    <string name="will_submit_claim_to_other_insurers">Will you submitted claim request to \nother insurer(s) with this receipt?</string>
+
+    <!--Step 2 Message-->
+    <string name="will_submit_claim_to_other_insurers_alert_message">If you wish to submit a claim request to other insurer with this receipt, you can download the claim settlement advice from our website after the processing of the claim is completed by UMP</string>
+    <string name="change_has_submitted_other_warning">Change of has claim to other will clear the photos</string>
+
+    <!--Step 2 Validation-->
+    <string name="validate_total_amount_bigger_than_claim_amount">The total amount cannot be smaller than other claim amount</string>
+    <string name="validate_positive_total_claim_amount">Please enter positive number of total claim amount</string>
+    <string name="validate_positive_amount_paid_by_other">Please enter positive number of amount claim by others</string>
+    <string name="validate_required_consultation_date">Please enter consultation date</string>
+    <string name="validate_required_diagnosis">Please enter diagnosis</string>
+
+    <!--Take picture-->
+    <string name="validate_required_recipt_photos">Please add at least one receipt photo</string>
+    <string name="validate_required_claim_settlement">Please add at lease one claim settlement document</string>
+    <string name="validate_required_referral_letter">Please add at least one referral letter</string>
+    <string name="validate_required_submitted_referral_letter_option">Please select submitted referral letter option</string>
+    <string name="validate_required_referral_letter_option">Please select referral letter option</string>
+    <string name="have_referral_letter_question">Do you have referral letter for this claim?</string>
+    <string name="submitted_referral_letter_question">Have you ever submitted \nreferral letter for the same treatment\nwithin 180 days prior to the consultation day?</string>
+    <string name="photo_of_receipt">Photo of the receipt (For this claim request)</string>
+    <string name="photo_of_claim_settlement">Photo of the Claim settlement Advice from the insurer (For this claim request)</string>
+    <string name="photo_of_referral_letter">Photo of the referral letter (For this claim request)</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="choose_image_source">Please choose your image source</string>
+    <string name="camera">Camera</string>
+    <string name="photo_album">Photo Album</string>
+    <string name="phy_reject_alert_message">Please note that physiotherapy treatment claims may require a doctor referral letter. Please check your \"Member Guide\" for more information.</string>
+    <string name="lab_reject_alert_message">Please note that diagnostic investigation claims may require a doctor referral letter. Please check your \"Member Guide\" for more information.</string>
+    <string name="delete_button">Delete</string>
+    <string name="have">Yes</string>
+    <string name="not_have">No</string>
+    <string name="used_to">Yes</string>
+    <string name="not_used_to">No</string>
+    <string name="picture_over_limit_message">Maximum 10 pictures</string>
+
+    <!--// Summary Page-->
+    <string name="name_of_patient">Name of Claimant</string>
+    <string name="type_of_claim">Type of Claim</string>
+    <string name="claim_amount_from_ump">Claim amount to be\nrequested from UMP</string>
+    <string name="photo">Photo</string>
+    <string name="submit">Submit</string>
+    <string name="submit_alert_message">* The claim submitted by using this eClaim application shall be subject to claim assessment and approval by UMP.\n\n* Please ensure all details in this application are true and accurate to the best of your brief and knowledge.\n\n* You are advised to keep the original receipt(s) and related document(s) for no less than 120 days from the treatment date. UMP reserves the right from time to time to request you to submit such original receipt(s) and document(s) after your application. UMP may refuse the claim application if you fail to submit the original receipt(s) and document(s) within deadline imposed by UMP.</string>
+
+    <!--// Confirmation Page-->
+    <string name="confirmation_reference_number_text">Your eClaim request (Ref:%s) has been submitted to UMP and will be processed as soon as possible. \n\nYou are advised to record the Reference number for future enquiry.</string>
+    <string name="confirmation_resubmit_text">Do you want to submit another eClaim request now?</string>
+
+    <!--// Setting Page-->
+    <string name="tutorial_label">Show tutorial at start</string>
+    <string name="show_tutorial_button">Show</string>
+    <string name="no_show_tutorial_button">No Show</string>
+
+    <!-- ESubmission Menu-->
+    <string name="esubmission_menu_submit_claim">Submit Claim</string>
+    <string name="esubmission_title">eSubmission</string>
+    <string name="esubmission_menu_check_claim">Check Claim</string>
+
+    <!-- ESubmission Claim List -->
+    <string name="consultation_label">Consultation Date</string>
+    <string name="paid_amount_label">Paid Amount</string>
+    <string name="claim_detail">Non-network Claims Detail</string>
+    <string name="claim_history">Non-network Claims History</string>
+    <string name="reference_number">Reference Number</string>
+    <string name="processed_date">Processed Date\n(dd/mm/yyyy)</string>
+    <string name="presented_amount">Presented Amount</string>
+    <string name="eligible_amount">Eligible Amount</string>
+    <string name="processed">Processed</string>
+    <string name="received">Claims Received</string>
+    <string name="received_date">Received Date</string>
+    <string name="date">Date</string>
+    <string name="menu_action">Please Select the function</string>
+    <string name="rejected_status">Rejected</string>
+    <string name="pending_status">Pending</string>
+    <string name="paid_by">Paid By</string>
+    <string name="auto_payment">Auto Payment</string>
+    <string name="cheque">Cheque</string>
+
+    <!--// Other-->
+    <string name="esubmission_time_out">ESubmission idle for too long.\nPlease login again.</string>
+    <string name="CTF">CHOW TAI FOOK JEWELLERY CO LTD</string>
+    <string name="start">Start</string>
+    <string name="disclaimer_statement">Part 1\nI acknowledge and understand that:\n(1) the use of the eSubmission service and any and all functions at  the eSubmission service shall at all times governed by the Terms and Conditions hereunder; and\n(2) this eSubmission service is maintained by UMP and all personal data uploaded by using this eSubmission service shall be subject to the Personal Data (Privacy) Ordinance (Cap.486) of the laws of Hong Kong.\n\nI further confirm that, by using the eSubmission service, in the event that I am submitting a claim on behalf of my dependent (18 years of age or over), I have received the dependent’s authorization and consent on his/her behalf:\n(1) to submit the claim and to provide all the personal data and information included in the claim to UMP; and\n(2) to submit supporting documentation to UMP for the claim,\n\nAnd I am solely responsible for the truth and accuracy of all personal data, information and documentation submitted by me.\n\nPart 2\nI hereby irrevocably authorize UMP to obtain and retain the record and information  of my (or my dependent’s) employment, sick leave records, accident or loss details (of any sorts), health and medical history or any treatment or advice that has been or may hereafter be consulted.  I hereby further agree and authorize any organization, institution or individual to disclose and/or transfer any of the aforesaid record and information to UMP and this authorization shall bind my successors and assignees and remain valid in so far as legally possible notwithstanding my death or incapacity. A photocopy of this authorization shall be as valid as the original.\n\nI understand that “Submit eSubmission application” is for claim assessment process. The claim will not be considered as completed until UMP has completed the entire claim process of the claim application.\n\nPart 3\nI understand and acknowledge that, for the purpose of auditing any of my/my dependent’s successful eSubmission application, UMP may from time to time request me or my dependent to provide any or all original receipt(s) and supporting document(s) of the corresponding medical treatment/ service received (“the Original Documents”).  I undertake and agree to submit the Original Documents to UMP as soon as practicable upon receiving such request from UMP, failing which, the claim may be considered as untrue, fake or misleading, UMP reserves all the rights including but not limited to reject and decline any further eSubmission application from me or my dependent, and I hereby indemnify and hold UMP harmless for any cost, expenses, loss and damage incurred therefrom.\n\n\nThese terms and conditions shall be governed by and construed in accordance with the laws of Hong Kong and subject to the exclusive jurisdiction of Hong Kong courts.\n\nBy using this eSubmission service, I confirm that I have read, understood and accepted the above terms and conditions.</string>
+    <string name="attention_alert_title">Attention</string>
+    <string name="server_communication_error">Server Communication Error</string>
+    <string name="system_error">System Error</string>
+    <string name="invalid_user_title">Invalid User</string>
+    <string name="invalid_user_message">Invalid User. Please try again</string>
+    <string name="title_activity_tutorial">TutorialActivity</string>
+    <string name="title_activity_app_launch">AppLaunchActivity</string>
+    <string name="previous_button">Previous</string>
+    <string name="next_button">Next</string>
+    <string name="check_disclaimer_statement">The claim(s) status shown in this mobile app may be updated from time to time.\n\nThe claim(s) status shown in this mobile app does not represent or constitute the final result of the claim assessment.\n\nAll information and claim(s) status shown in this mobile app is for reference only, UMP reserves the right to make final decision on all matters relating to the claim(s), including, among other things, claim validation, claim assessment, eligibility and compensation of the claim.</string>
+
+    <string name="start_use_app">Start</string>
+    <string name="title_activity_esubmission_diagnosis">ESubmissionDiagnosisActivity</string>
+    <string name="title_activity_esubmission_take_image">ESubmissionTakeImageActivity</string>
+    <string name="declaration_title">Declaration and Authorization</string>
+    <string name="activity_back_alert">Exit will lose all the data</string>
+    <string name="uploading">Please wait, uploading data...</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_non_panel_claim">NonPanelClaimActivity</string>
+    <string name="title_activity_claim_detail">Claim_Detail</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- Membercard -->
+
+    <!-- Title -->
+    <string name="membercard_login_title">LOGIN UMP服務點</string>
+    <string name="membercard_registerpageone_title">REGISTRATION</string>
+    <string name="membercard_registerpagetwo_title">REGISTRATION</string>
+    <string name="membercard_registerpagetwo_titletwo">ADD CARD</string>
+    <string name="membercard_membercard_title">MY MEDICAL CARD</string>
+    <string name="membercard_qrscan_title">SCAN DOCTOR QR CODE</string>
+    <string name="membercard_qrresult_title">QR CODE SCAN RESULT</string>
+    <string name="membercard_forgetpasswordone_title">FORGET PASSWORD</string>
+    <string name="membercard_forgetpasswordtwo_title">SMS VERIFICATION</string>
+    <string name="membercard_forgetpasswordthree_title">RESET PASSWORD</string>
+
+    <!-- Membercard Item -->
+    <string name="membercard_item_text">Please touch the card to scan Doctor QR code</string>
+
+
+
+
+    <!-- Login-->
+    <string name="membercard_id">UMP ID</string>
+    <string name="membercard_password">Password</string>
+    <string name="membercard_dentalservice">Dental Service</string>
+    <string name="membercard_rememberpassword">Remember Password</string>
+    <string name="membercard_rememberpassword_480">Remember\nPassword</string>
+    <string name="membercard_forgetpassword">Forget Password</string>
+    <string name="membercard_forgetpassword_480">Forget\nPassword</string>
+    <string name="membercard_enteraccesscode">Access Code</string>
+    <string name="membercard_enteraccesscode_480">Access\nCode</string>
+    <string name="membercard_b_register">REGISTER</string>
+    <string name="membercard_b_login">LOGIN</string>
+    <string name="membercard_membercard_umpclients">Exclusively used by UMP designated clients</string>
+
+    <!-- Register Page one -->
+    <string name="membercard_sendsms">Send SMS</string>
+    <string name="membercard_phonehint">Mobile</string>
+    <string name="membercard_smshint">SMS Code</string>
+    <string name="membercard_emailhint">Email Address</string>
+    <string name="membercard_passwordinputhint">8-20  alphanumerical characters consisting at least 1 uppercase,lowercase letter and a digit</string>
+    <string name="membercard_confirmpasswordhint">Confrim Password</string>
+    <string name="membercard_answerhint">Answer</string>
+    <string name="membercard_cb_receivenew">Receive the News from UMP</string>
+    <string name="membercard_cb_agreeterm">I agree with the terms of service</string>
+    <string name="membercard_captchahint">Type the characters</string>
+    <string name="membercard_refreshcaptcha">Refresh CAPTCHA</string>
+    <string name="membercard_b_next">NEXT</string>
+    <string name="member_hint_checksms_480"><font size="13">Type the characters</font></string>
+
+    <!--Validation Register Page one -->
+    <string name="membercard_v_phoneinputnull">Please enter your phone number</string>
+    <string name="membercard_v_phoneformaterror">Wrong phone numer format</string>
+    <string name="membercard_v_phoneverified">Please enter the phone number used for verification</string>
+    <string name="membercard_v_sendsms">Please send SMS for verification</string>
+    <string name="membercard_v_smsinputnull">Please enter SMS Code</string>
+    <string name="membercard_v_smsinputwrong">Your SMS Code entered is wrong</string>
+    <string name="membercard_v_emailinputnull">Please enter email address</string>
+    <string name="membercard_v_emailformaterror">Wrong email format</string>
+    <string name="membercard_v_passwordinputnull">Please enter password</string>
+    <string name="membercard_v_passwordformaterror">Wrong password format</string>
+    <string name="membercard_v_comfrimpasswordinputnull">Please confirm the password</string>
+    <string name="membercard_v_comfrimpasswordfail">Confirm Password does not match</string>
+    <string name="membercard_v_choosesecurityquestions1">Please select security questions 1</string>
+    <string name="membercard_v_choosesecurityquestions2">Please select security questions 2</string>
+    <string name="membercard_v_choosesecurityquestions3">Please select security questions 3</string>
+    <string name="membercard_v_entersecurityquestions1">Please enter security questions 1</string>
+    <string name="membercard_v_entersecurityquestions2">Please enter security questions 2</string>
+    <string name="membercard_v_entersecurityquestions3">Please enter security questions 3</string>
+    <string name="membercard_v_agreeterm">Please tick I agree with the terms of service</string>
+    <string name="membercard_v_entercaptcha">Please enter Captcha</string>
+    <string name="membercard_v_entercaptchafails">Your Captcha entered is wrong</string>
+    <string name="membercard_v_smstext">SMS has been sent</string>
+
+
+
+
+
+
+    <!-- Register Pagetwo -->
+    <string name="membercard_ownaccesscode">Own UMP Access Code?</string>
+    <string name="membercard_rb_yes">YES</string>
+    <string name="membercard_rb_no">NO</string>
+    <string name="membercard_accesscode">UMP Access Code</string>
+    <string name="membercard_cardcompanyname">Company name</string>
+    <string name="membercard_name">Name</string>
+    <string name="membercard_membernumber">Member No.</string>
+    <string name="membercard_membernumber2">Staff No.</string>
+    <string name="membercard_b_submit">SUBMIT</string>
+
+
+    <!--Validation Register Page two -->
+    <string name="membercard_v_ownaccesscode">Please select own UMP access code</string>
+    <string name="membercard_v_own">Please select</string>
+    <string name="membercard_v_enteraccesscode">Please enter UMP access code</string>
+    <string name="membercard_v_entercardcompayname">Please enter company name on the card</string>
+    <string name="membercard_v_entername">Please enter the name</string>
+    <string name="membercard_v_entermembernumber">Please enter the member number</string>
+
+    <string name="membercard_v_registerss_title">Registration</string>
+    <string name="membercard_v_registerss_message">Registration is Successful</string>
+    <string name="membercard_v_registerfails_title">Registration</string>
+    <string name="membercard_v_registerfails_message">Registration failed</string>
+
+
+    <string name="membercard_v_addcardss_title">Add membercard</string>
+    <string name="membercard_v_addcardss_message">Add membercard succeeds</string>
+
+    <string name="membercard_v_addcardfails_title">Failture of adding new membercard</string>
+    <string name="membercard_v_addcardfails_message">You already have this card</string>
+
+    <string name="membercard_v_addcardaccodefails_title">Failture of Access Code Verification</string>
+    <string name="membercard_v_addcardaccodefails_message">Invalid Access Code</string>
+
+    <string name="membercard_v_addcardaccode_tmptext1">Add UMP Blue card  </string>
+    <string name="membercard_v_addcardaccode_tmptext2">Add UMP Orange card  </string>
+    <string name="membercard_v_addcardaccode_tmptext3">Add Staff card  </string>
+
+    <string name="membercard_v_addcardaccode_tmptextss"> succeeds</string>
+    <string name="membercard_v_addcardaccode_tmptextff"> fails</string>
+
+
+    <!-- Register Membercard -->
+    <string name="membercard_b_delete">DELETE</string>
+    <string name="membercard_b_add">ADD</string>
+    <string name="membercard_alertdialog_delete">Do you DELETE the card?</string>
+
+    <!-- Register Membercard Item-->
+    <string name="membercard_membershipnumber">MEMBERSHIP No.:</string>
+    <string name="membercard_membername">NAME:</string>
+
+    <!-- Membercard QRScan -->
+    <string name="membercard_qrscanfails">Scan Fails,Please try again</string>
+
+    <!-- Register Membercard QRResult-->
+    <string name="membercard_resultsuccess">Successfully Entered</string>
+    <string name="membercard_noquota">No Outpatient limit !</string>
+    <string name="membercard_voucher">Medical Voucher No.:</string>
+    <string name="membercard_drnumber">Doctor No.:</string>
+
+    <string name="membercard_qrscanresult_success">Successfully Entered</string>
+    <string name="membercard_qrscanresult_fails">Enter Fails</string>
+
+
+    <!-- ForgetPassword Membercard ForgetPasswordPageOne-->
+    <string name="membercard_forgetpwdonetext">Please enter the phone number you used to sign up for UMP.We will send you as SMS with information on how to reset your password.</string>
+
+
+    <!-- ForgetPassword Membercard ForgetPasswordPageTwo-->
+    <string name="membercard_entersmssixdigittext">A 6-digit verification code has been sent to</string>
+    <string name="membercard_entersmstext">Please enter the verification code</string>
+    <string name="membercard_resendsmstext">Didn\'t receive the verification code?</string>
+    <string name="membercard_resendsms">Resend SMS</string>
+
+    <!-- ForgetPassword Membercard ForgetPasswordPageThree-->
+    <string name="membercard_newpasswordhint">New Password</string>
+    <string name="membercard_confirmnewpasswordhint">Confrim New Password</string>
+
+    <!-- Others -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

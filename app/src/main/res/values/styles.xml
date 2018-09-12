@@ -1,0 +1,169 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <style name="AppBaseTheme" parent="android:Theme.Light" />
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme" />
+
+    <!-- @color/ump_text_grey -->
+
+    <style name="textview_doctor_small" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/font_size_doctor_small</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="textview_doctor" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/font_size_doctor</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="textview_black_little_smaller" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/font_size_little_smaller</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="textview_black" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/font_size</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="textview_black_small" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/font_size_small</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="textview_white_large" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/font_size_big</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="textview_white" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/font_size</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="textview_white_little_smaller" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/font_size_little_smaller</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="textview_white_small" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/font_size_small</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="textview_white_very_small" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/font_size_very_small</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="textview_blue" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/font_size</item>
+        <item name="android:textColor">@color/access_code_blue</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="version_grey_style" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/font_size_version_num</item>
+        <item name="android:textColor">@color/version_grey</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="textview_grey_very_small" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/font_size_very_small</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="textview_grey_small" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/font_size_small</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="mytextview_small" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/font_size_small</item>
+        <item name="android:textColor">@color/mytextcolor</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="mytextview" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/font_size_small</item>
+        <item name="android:textColor">@color/mytextcolor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="mytextview_large" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/font_size_big</item>
+        <item name="android:textColor">@color/mytextcolor</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="my_listview_style" parent="android:Widget.ListView.White">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:divider">@color/divider_blue</item>
+        <item name="android:dividerHeight">@dimen/listview_divider_height</item>
+        <item name="android:drawSelectorOnTop">false</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:listSelector">@drawable/listview_selector</item>
+    </style>
+
+    <style name="my_disclaimer_dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowEnterAnimation">@anim/enter</item>
+        <item name="android:windowExitAnimation">@anim/exit</item>
+    </style>
+
+    <style name="NewAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="Base.Theme.DesignDemo" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#FF4081</item>
+        <item name="android:windowBackground">@color/list_background</item>
+    </style>
+
+    <style name="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="menu_text_style" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Menu">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="TextInputHint">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#199c8f</item>
+    </style>
+
+
+</resources>

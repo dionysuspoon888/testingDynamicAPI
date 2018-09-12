@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/logo_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/eclaim_background_1136"
+    android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/logo_screen_hidden"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:id="@+id/enter_code_screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@color/transparent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="24dp">
+
+                <TextView
+                    style="@style/textview_blue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/access_code_text_height"
+                    android:background="@color/transparent"
+                    android:contentDescription="@string/app_name"
+                    android:gravity="center"
+                    android:text="@string/login_instruction"
+                    android:textAppearance="@style/mytextview"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/scheme_code_text_view"
+                        style="@style/textview_black_little_smaller"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/access_code_text_height"
+                        android:layout_marginLeft="@dimen/margin_small"
+                        android:layout_marginRight="@dimen/margin_small"
+                        android:background="@android:color/transparent"
+                        android:gravity="center_vertical"
+                        android:text="@string/scheme_code" />
+
+                    <EditText
+                        android:id="@+id/scheme_code_edit_text"
+                        style="@style/textview_black"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/access_code_text_height"
+                        android:layout_marginLeft="@dimen/margin_small"
+                        android:layout_marginRight="@dimen/margin_small"
+                        android:background="@drawable/access_code_text_back"
+                        android:ellipsize="end"
+                        android:gravity="left|center_vertical"
+                        android:imeOptions="actionDone"
+                        android:inputType="textCapCharacters"
+                        android:paddingLeft="10dp"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/ll_dynamic_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/dynamic_code_text_view"
+                        style="@style/textview_black_little_smaller"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/access_code_text_height"
+                        android:layout_marginLeft="@dimen/margin_small"
+                        android:layout_marginRight="@dimen/margin_small"
+                        android:background="@android:color/transparent"
+                        android:gravity="center_vertical"
+                        android:text="TBC Code" />
+
+                    <EditText
+                        android:id="@+id/dynamic_code_edit_text"
+                        style="@style/textview_black"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/access_code_text_height"
+                        android:layout_marginLeft="@dimen/margin_small"
+                        android:layout_marginRight="@dimen/margin_small"
+                        android:background="@drawable/access_code_text_back"
+                        android:ellipsize="end"
+                        android:gravity="left|center_vertical"
+                        android:imeOptions="actionDone"
+                        android:inputType="textCapCharacters"
+                        android:paddingLeft="10dp"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/login_id_text_view"
+                        style="@style/textview_black_little_smaller"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/access_code_text_height"
+                        android:layout_marginLeft="@dimen/margin_small"
+                        android:layout_marginRight="@dimen/margin_small"
+                        android:background="@android:color/transparent"
+                        android:gravity="center_vertical"
+                        android:text="@string/login_id" />
+
+                    <EditText
+                        android:id="@+id/login_id_edit_text"
+                        style="@style/textview_black"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/access_code_text_height"
+                        android:layout_marginLeft="@dimen/margin_small"
+                        android:layout_marginRight="@dimen/margin_small"
+                        android:background="@drawable/access_code_text_back"
+                        android:ellipsize="end"
+                        android:gravity="left|center_vertical"
+                        android:imeOptions="actionDone"
+                        android:paddingLeft="10dp"
+                        android:singleLine="true" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/password_text_view"
+                        style="@style/textview_black_little_smaller"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/access_code_text_height"
+                        android:layout_marginLeft="@dimen/margin_small"
+                        android:layout_marginRight="@dimen/margin_small"
+                        android:background="@android:color/transparent"
+                        android:gravity="center_vertical"
+                        android:text="@string/password" />
+
+                    <EditText
+                        android:id="@+id/password_edit_text"
+                        style="@style/textview_black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/access_code_text_height"
+                        android:layout_marginLeft="@dimen/margin_small"
+                        android:layout_marginRight="@dimen/margin_small"
+                        android:background="@drawable/access_code_text_back"
+                        android:ellipsize="end"
+                        android:gravity="left|center_vertical"
+                        android:imeOptions="actionDone"
+                        android:inputType="textPassword"
+                        android:paddingLeft="10dp"
+                        android:singleLine="true" />
+                </LinearLayout>
+                <Button
+                    android:id="@+id/esubmission_login_button"
+                    style="@style/textview_white"
+                    android:layout_width="@dimen/access_enter_btn_width"
+                    android:layout_height="@dimen/access_enter_btn_height"
+                    android:layout_marginTop="@dimen/margin_medium"
+                    android:background="@drawable/ump_normal_btn"
+                    android:layout_gravity="center|top"
+                    android:text="@string/access_code_btn_text"
+                    android:textAllCaps="false"
+                    android:visibility="visible" />
+
+                <TextView
+                    style="@style/textview_black_small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_small"
+                    android:layout_marginRight="@dimen/margin_small"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:gravity="center"
+                    android:text="@string/eclaim_login_disclaimer" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+</LinearLayout>

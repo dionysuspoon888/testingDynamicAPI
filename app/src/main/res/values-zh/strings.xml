@@ -1,0 +1,394 @@
+<resources>
+
+    <string name="app_name">UMP服務點</string>
+    <string name="ump_version_num">版本 : 3.1.2 Build 20180327</string>
+
+    <string name="medical_scheme">\n醫療計劃</string>
+    <string name="check_sum_data_not_match">服務端錯誤</string>
+
+    <string name="access_code_medical">醫療服務</string>
+    <string name="access_code_dental">牙科服務</string>
+
+    <string name="access_code_caption_msg">只供UMP機構客戶或持醫療咭人士使用。</string>
+
+    <string name="login_check_version">有更新可供下載，現在要進行安裝嗎？</string>
+    <string name="login_check_reminder">版本更新</string>
+
+    <string name="language_zh">中</string>
+    <string name="language_en">ENG</string>
+    <string name="login_download_full">完整</string>
+    <string name="login_download_update">變動</string>
+
+    <!-- string name="main_tab_text_1">重要資訊</string>
+    <string name="main_tab_text_2">服務計劃</string>
+    <string name="main_tab_text_3">其他服務</string>
+
+    <string name="main_tab_text_1_blank">重要資訊</string>
+    <string name="main_tab_text_1_2">醫療服務</string-->
+
+    <string name="last_data_sync_time">最後更新:</string>
+
+    <string name="disclaimer_warn">您需要同意該免責聲明</string>
+    <string name="disclaimer_title">免責聲明</string>
+    <string name="procedure_title">使用須知</string>
+    <string name="disclaimer_startup">首次啟動的內容\n首次啟動的內容\n首次啟動的內容\n首次啟動的內容\n首次啟動的內容\n免責聲明的內容\n免責聲明的內容\n免責聲明的內容\n免責聲明的內容\n免責聲明的內容\n免責聲明的內容\n免責聲明的內容\n免責聲明的內容\n免責聲明的內容\n免責聲明的內容\n免責聲明的內容\n免責聲明的內容\n</string>
+
+    <string name="disclaimer_important_notes_previous">前一頁</string>
+
+    <string name="disclaimer_agree">同意</string>
+    <string name="disclaimer_disagree">不同意</string>
+    <string name="disclaimer_ok">確定</string>
+    <string name="disclaimer_cancel">取消</string>
+
+    <string name="app_yes">是</string>
+    <string name="app_no">否</string>
+
+    <string name="network_title">沒有網絡訊號</string>
+    <string name="network_go_on">資料不能下載及更新，是否繼續？</string>
+    <string name="network_unavailable">請檢查您的網絡狀況</string>
+
+    <string name="language_switch_text">語言</string>
+    <string name="downlaod_text">資料下載</string>
+
+    <string name="language_switch_on">中文</string>
+    <string name="language_switch_off">英文</string>
+
+    <string name="access_code_text">登入碼</string>
+    <string name="access_code_hint">00000000</string>
+    <string name="access_code_btn_text">登入</string>
+    <string name="access_code_empty">請輸入有效的網絡醫生名錄登入碼!</string>
+    <string name="access_code_invalid">無效的代碼</string>
+    <string name="access_code_not">無此記錄</string>
+    <string name="main_temp_info">登入碼</string>
+    <string name="info_corporate_scheme_btn">企業計劃</string>
+    <string name="info_optional_scheme_btn">可選計劃</string>
+    <string name="cms_progress_dialog_title">加載中</string>
+
+    <string name="full_download_dialog_msg"> 完整的資料下載比變動的資料下載數據傳送較多及時間稍長, 但可確保資料完整. 是否繼續？</string>
+    <string name="full_download_new_dialog_msg">新登入碼需要完整的資料下載, 因此數據傳送較多及時間稍長. 是否繼續？</string>
+    <string name="full_download_new_app_dialog_msg">更新程式版本需要完整的資料下載, 因此數據傳送較多及時間稍長. 是否繼續？</string>
+
+    <string name="cms_progress_dialog_msg">請稍等，資料下載及更新中&#8230;</string>
+
+    <string name="cms_update_success">更新成功</string>
+    <string name="cms_update_fail">更新失敗</string>
+
+    <string name="general_scheme">通常方案</string>
+    <string name="language_switch_btn_text">英文</string>
+
+    <string name="downloading_title">下載</string>
+    <string name="downloading_text">下載數據中&#8230;</string>
+
+    <string name="doctor_detail_frag_workhour_text">開診時間</string>
+
+    <string name="doctor_detail_frag_map_btn">地圖</string>
+    <string name="doctor_detail_frag_phone_btn">致電</string>
+
+    <string name="doctor_detail_frag_share_btn">分享到</string>
+    <string name="doctor_detail_frag_share_email">電子郵件</string>
+    <string name="doctor_detail_frag_share_whatsapp">WhatsApp</string>
+    <string name="doctor_detail_emailshare_app">傳送電子郵件</string>
+    <string name="doctor_detail_frag_share_cancel">取消</string>
+
+    <string name="google_map_toast">UMP Google Map 信息</string>
+    <string name="google_map_title">Google Map</string>
+    <string name="google_map_searching">搜索地址中&#8230;</string>
+    <string name="google_map_no_position_found_toast">無法找到該地址</string>
+
+    <string name="invalid_phone_num">無效的號碼</string>
+    <string name="doctor_detail_frag_share_sms">短訊</string>
+
+    <!-- Ho Setting -->
+    <string name="system_setting">設定</string>
+    <string name="show_tutorial_at_start">啟動時查看教學</string>
+    <string name="show_tutorial_zh">查看</string>
+    <string name="show_tutorial_en">不查看</string>
+
+    <!--Home Page Tab-->
+    <string name="hong_kong_region">香港</string>
+    <string name="china_region">中國</string>
+    <string name="macau_region">澳門</string>
+    <string name="home_title">加入醫療卡</string>
+    <string name="doctor_list_title">醫生名冊</string>
+    <string name="non_network_claims">非網路賠償</string>
+    <string name="setting_title">設定</string>
+
+    <!--// EClaim Submission Login-->
+    <string name="login_instruction">登入</string>
+    <string name="eclaim_login_disclaimer">聯合醫務指定客戶或保險公司會員專用。</string>
+    <string name="scheme_code">計劃編號</string>
+    <string name="login_id">登入名稱</string>
+    <string name="password">密碼</string>
+    <string name="declaration_and_service_coverage">聲明及授權</string>
+    <string name="UMP_Membership_No">員工的 UMP 會員編號</string>
+    <string name="validate_required_scheme_code">請輸入計劃代碼</string>
+    <string name="please_enter_first_four_hkid">請輸入身份證頭四個字母作為密碼</string>
+
+    <!--// EClaim Submission Page-->
+    <string name="please_select">請選擇</string>
+    <string name="select_patient">選擇索償申請人</string>
+    <string name="select_type_of_claim">選擇索償類別</string>
+    <string name="change_claim_type_alert_message">轉換服務類別會移除巳揀選的相片</string>
+
+    <!--// Step 2-->
+    <string name="currency_of_the_receipt">收據貨幣</string>
+    <string name="total_amount_of_the_receipt">收據總金額</string>
+    <string name="submitted_claim_other_insurers">閣下曾否向其他保險公司遞交此收據進行索償?</string>
+    <string name="amount_already_paid_by_other_insurer">其他保險公司已賠償之金額</string>
+    <string name="date_of_consultation">診症日期\n(日日/月月/年年年年)</string>
+    <string name="diagnosis">診斷結果</string>
+    <string name="will_submit_claim_to_other_insurers">您是否向其他保險公司提交索賠要求？</string>
+
+    <!--// Step 2 Message-->
+    <string name="will_submit_claim_to_other_insurers_alert_message">如果您希望使用此收據向其他保險公司提出索賠請求，您可以在UMP完成索賠處理後，從我們的網站下載索賠結算通知</string>
+    <string name="change_has_submitted_other_warning">變更此選項將清除照片</string>
+
+    <!--// Step 2 Validation-->
+    <string name="validate_total_amount_bigger_than_claim_amount">總金額不能少於其他索償金額</string>
+    <string name="validate_positive_total_claim_amount">請輸入收據總金額</string>
+    <string name="validate_positive_amount_paid_by_other">請輸入其他索償金額</string>
+    <string name="validate_required_consultation_date">請選擇診症日期</string>
+    <string name="validate_required_diagnosis">請選擇診斷結果</string>
+
+    <!--// Take picture-->
+    <string name="validate_required_recipt_photos">請上載至少一張收據圖像</string>
+    <string name="validate_required_claim_settlement">請上載至少一張賠償結算通知書圖像</string>
+    <string name="validate_required_referral_letter">請上載至少一張介紹信圖像</string>
+    <string name="validate_required_submitted_referral_letter_option">請選擇提交的推薦信選項</string>
+    <string name="validate_required_referral_letter_option">請提供轉介信選項</string>
+    <string name="have_referral_letter_question">閣下有否是次索償之介紹信?</string>
+    <string name="submitted_referral_letter_question">閣下曾否於治療日期前180日內\n就相同病症提交介紹信?</string>
+    <string name="photo_of_receipt">收據圖像 (此次理賠申請)</string>
+    <string name="photo_of_claim_settlement">賠償結算通知書圖像 (此次理賠申請)</string>
+    <string name="photo_of_referral_letter">介紹信圖像 (此次理賠申請)</string>
+    <string name="add_photo">附加圖像</string>
+    <string name="choose_image_source">請選擇閣下之圖像來源</string>
+    <string name="camera">相機</string>
+    <string name="photo_album">圖庫</string>
+    <string name="phy_reject_alert_message">請注意，物理治療索償可能需要醫生轉診信。 請查看您的“會員指南”了解更多信息。</string>
+    <string name="lab_reject_alert_message">請注意，診斷調查索償可能需要醫生轉診信。 請查看您的“會員指南”了解更多信息。</string>
+    <string name="delete_button">移除</string>
+    <string name="have">有</string>
+    <string name="not_have">否</string>
+    <string name="used_to">曾</string>
+    <string name="not_used_to">否</string>
+    <string name="picture_over_limit_message">最多十幅圖像</string>
+
+    <!--// Summary Page-->
+    <string name="name_of_patient">索償申請人姓名</string>
+    <string name="type_of_claim">索償類別</string>
+    <string name="claim_amount_from_ump">向聯合醫務索償金額</string>
+    <string name="photo">圖像</string>
+    <string name="submit">提交</string>
+    <string name="submit_alert_message">* 透過此電子呈交申請提交之索賠將經由聯合醫務進行索賠評估及審核。\n\n* 於閣下所知所信，請確保一切提交申請中的信息及細節乃真實及準確。\n\n* 閣下應至少於治療日起120天內保留所有收據及相關文件的正本。聯合醫務保留權利隨時要求閣下於呈交索賠申請後提交該等收據及文件正本。如閣下未能於限期內提交該等收據及文件正本，聯合醫務可駁回該索賠申請。</string>
+
+    <!--// Confirmation Page-->
+    <string name="confirmation_reference_number_text">閣下之電子索償申請 (參考編號: %s) 已傳送至聯合醫務，並會盡快處理。\n\n請紀錄參考編號以便日後查詢。</string>
+    <string name="confirmation_resubmit_text">閣下需要遞交其他電子索償申請嗎?</string>
+
+    <!--// Setting Page-->
+    <string name="tutorial_label">啟動時查看教學</string>
+    <string name="show_tutorial_button">查看</string>
+    <string name="no_show_tutorial_button">不查看</string>
+
+    <!-- ESubmission Menu-->
+    <string name="esubmission_menu_submit_claim">提交電子索償</string>
+    <string name="esubmission_title">電子索償申請</string>
+    <string name="esubmission_menu_check_claim">查看電子索償</string>
+
+    <!-- ESubmission Claim List -->
+    <string name="consultation_label">診症日期</string>
+    <string name="paid_amount_label">巳付金額</string>
+    <string name="claim_detail">非網路賠償詳情</string>
+    <string name="claim_history">非網路賠償記錄</string>
+    <string name="reference_number">參考編號</string>
+    <string name="processed_date">處理日期\n(日日/月月/年年年年)</string>
+    <string name="presented_amount">索償金額</string>
+    <string name="eligible_amount">受理金額</string>
+    <string name="processed">巳處理</string>
+    <string name="received">巳接收之索償</string>
+    <string name="received_date">接收日期</string>
+    <string name="date">日期</string>
+    <string name="menu_action">請選擇所需功能</string>
+    <string name="rejected_status">巳拒絕賠償</string>
+    <string name="pending_status">等待中</string>
+    <string name="paid_by">理賠方式</string>
+    <string name="auto_payment">自動轉脹</string>
+    <string name="cheque">支票</string>
+
+    <!--// Other-->
+    <string name="esubmission_time_out">電子索償系統閒置時間過長\n請用戶重新登入系統。</string>
+    <string name="CTF">周大福珠寶金行有限公司</string>
+    <string name="start">開始</string>
+    <string name="disclaimer_statement">第一部份\n本人承認並理解:\n(1) 使用此電子呈交服務及任何其功能的，需不時受本條款及細則約束; 及\n(2) 此電子呈文服務乃由聯合醫務維持，且所有使用此電子呈交服務上載的個人資料受個人資料(私人)條例 (香港法例第486章)管轄。\n\n本人亦進一步確誌，如本人透過使用此電子呈交服務為本人之18歲以上受撫養人提交索賠申請時，本人已獲得彼等授權及同意本人為彼等:\n(1) 提交索賠及提供索賠中包含的所有個人資料及信息予聯合醫務; 及\n(2) 就提交索賠支持文件予聯合醫務。\n\n並且，本人完全負責所有由本人提交的個人資料﹑信息及文件之真實性及準確性。\n\n第二部份\n本人在此不可撤銷地授權聯合醫務獲取並保留本人 (或本人之受撫養人) 的受聘紀錄及信息﹑病假紀錄﹑意外或損失細節 (或此類信息)﹑健康及醫療史或任何相關之治療或建議。本人在此進一步同意及授權任何組織﹑機構或個人向聯合醫務披露及/或轉讓任何上述紀錄及信息，及本授權應對本人的繼承人和受讓人具有約束力，且儘管本人死亡或無行為能力，此授權應於法律許可的情況下盡可能持續有效。此授權複印件應與原件具有同等效力。\n\n本人明白 “提交電子呈交申請” 乃申請索賠評估之過程，該索賠不會就此視為完成，直至聯合醫務已完成整個索賠申請的過程為此。\n\n第三部份\n本人明白並承認，為審核任何本人或本人之受撫養人之成功電子呈交申請的目的，聯合醫務可隨時要求本人或本人之受撫養人提供任何或所有收據之正本及所接受相關醫療/服務的支持文件正本 (「文件正本」)。本人承諾並同意按要求盡快向聯合醫務提交之文件正本，否則該索賠可被視為不真實﹑虛假或誤導，聯合醫務保留所有權利，包括但不限於駁回及拒絕任何本人或本人受撫養人之進一步電子呈交申請，本人並彌償聯合醫務因而導致的任何成本﹑開支﹑損失及損害。\n\n此條款及細則應受香港法律官轄，香港法院享專屬司法管轄權。\n\n透過採用此電子呈交服務，本人確認已經細閱﹑明白及接受以上條款及細則。\n\n以上條款及細則中文譯本僅供參考，與本中﹑英文版本存有任何抵觸或不相符之處，應以英文版本為準。</string>
+    <string name="attention_alert_title">注意</string>
+    <string name="server_communication_error">網絡問題</string>
+    <string name="system_error">系統錯誤</string>
+    <string name="invalid_user_title">用戶無效</string>
+    <string name="invalid_user_message">用戶無效，請重新輸入</string>
+    <string name="previous_button">上一步</string>
+    <string name="next_button">下一步</string>
+    <string name="check_disclaimer_statement">於本流動應用程式顯示之理賠狀況將可能不時更新。\n\n於本流動應用程式顯示之理賠狀況並不代表或構成該理賠評核之最後結果。\n\n所有於本流動應用程式顯示之信息及理賠狀況僅供參考，聯合醫務保留一切有關理賠 (其中包括個別理賠的有效性﹑評核﹑資格及賠償等) 的最後決定櫂。</string>
+
+    <string name="start_use_app">開始</string>
+    <string name="declaration_title">聲明及授權</string>
+    <string name="activity_back_alert">退出會失去所有資料</string>
+    <string name="uploading">請稍等，資料上傳中...</string>
+
+    <!-- Membercard -->
+
+    <!-- Title -->
+    <string name="membercard_login_title">登入UMP服務點</string>
+    <string name="membercard_registerpageone_title">注冊</string>
+    <string name="membercard_registerpagetwo_title">注冊</string>
+    <string name="membercard_registerpagetwo_titletwo">新増醫療卡</string>
+    <string name="membercard_membercard_title">我的醫療卡</string>
+    <string name="membercard_qrscan_title">掃描醫生二維碼</string>
+    <string name="membercard_qrresult_title">掃描結果</string>
+    <string name="membercard_forgetpasswordone_title">忘記密碼</string>
+    <string name="membercard_forgetpasswordtwo_title">SMS認證</string>
+    <string name="membercard_forgetpasswordthree_title">重設密碼</string>
+
+    <!-- Membercard Item -->
+    <string name="membercard_item_text">請輕觸卡片掃描醫生二維碼</string>
+
+
+    <!-- Login-->
+    <string name="membercard_id">UMP 註冊號</string>
+    <string name="membercard_password">密碼</string>
+    <string name="membercard_dentalservice">牙科服務</string>
+    <string name="membercard_rememberpassword">記住密碼</string>
+    <string name="membercard_rememberpassword_480">記住密碼</string>
+    <string name="membercard_forgetpassword">忘記密碼</string>
+    <string name="membercard_enteraccesscode">輸入登録碼</string>
+    <string name="membercard_b_register">註冊</string>
+    <string name="membercard_b_login">登錄</string>
+    <string name="membercard_membercard_umpclients">只供UMP機構客戸使用</string>
+
+    <!-- Register Page one -->
+    <string name="membercard_sendsms">發送驗證碼</string>
+    <string name="membercard_phonehint"> 手機號碼</string>
+    <string name="membercard_smshint">驗證碼</string>
+    <string name="membercard_emailhint">電郵地址</string>
+    <string name="membercard_passwordinputhint">8至20個字元,包含至少一個大寫字母, 小寫字母及數字</string>
+    <string name="membercard_confirmpasswordhint">確認密碼</string>
+    <string name="membercard_answerhint">答案</string>
+    <string name="membercard_cb_receivenew">取得UMP最新消息</string>
+    <string name="membercard_cb_agreeterm">我同意服務條款</string>
+    <string name="membercard_captchahint">請輸入圖中的字元</string>
+    <string name="membercard_refreshcaptcha">刷新驗證碼</string>
+    <string name="membercard_b_next">下一步</string>
+
+    <!--Validation Register Page one -->
+    <string name="membercard_v_phoneinputnull">請輸入手機號碼</string>
+    <string name="membercard_v_phoneformaterror">手機號碼格式錯誤</string>
+    <string name="membercard_v_phoneverified">請輸入用作驗證的手機號碼</string>
+    <string name="membercard_v_sendsms">請發送手機驗證碼</string>
+    <string name="membercard_v_smsinputnull">請輸入手機驗證碼</string>
+    <string name="membercard_v_smsinputwrong">手機驗證碼輸入錯誤</string>
+    <string name="membercard_v_emailinputnull">請輸入電郵地址</string>
+    <string name="membercard_v_emailformaterror">電郵格式錯誤</string>
+    <string name="membercard_v_passwordinputnull">請輸入密碼</string>
+    <string name="membercard_v_passwordformaterror">密碼格式錯誤</string>
+    <string name="membercard_v_comfrimpasswordinputnull">請確認密碼</string>
+    <string name="membercard_v_comfrimpasswordfail">確認密碼錯誤</string>
+    <string name="membercard_v_choosesecurityquestions1">請選擇安全提示問題 1</string>
+    <string name="membercard_v_choosesecurityquestions2">請選擇安全提示問題 2</string>
+    <string name="membercard_v_choosesecurityquestions3">請選擇安全提示問題 3</string>
+    <string name="membercard_v_entersecurityquestions1">請輸入安全提示問題 1</string>
+    <string name="membercard_v_entersecurityquestions2">請輸入安全提示問題 2</string>
+    <string name="membercard_v_entersecurityquestions3">請輸入安全提示問題 3</string>
+    <string name="membercard_v_agreeterm">請勾選我同意服務條款</string>
+    <string name="membercard_v_entercaptcha">請輸入驗證碼</string>
+    <string name="membercard_v_entercaptchafails">驗證碼錯誤</string>
+    <string name="membercard_v_smstext">SMS 已發送</string>
+
+
+    <!-- Register Page two -->
+    <string name="membercard_ownaccesscode">持有UMP服務登録碼?</string>
+    <string name="membercard_rb_yes">是</string>
+    <string name="membercard_rb_no">否</string>
+    <string name="membercard_accesscode">UMP服務登錄碼</string>
+    <string name="membercard_cardcompanyname">咭面上的公司名稱</string>
+    <string name="membercard_name">名稱</string>
+    <string name="membercard_membernumber">會員編號</string>
+    <string name="membercard_membernumber2">職員編號</string>
+    <string name="membercard_b_submit">提交</string>
+
+
+    <!--Validation Register Page two -->
+    <string name="membercard_v_ownaccesscode">請選擇是否持有UMP服務登録碼</string>
+    <string name="membercard_v_own">請選擇是否持有</string>
+    <string name="membercard_v_enteraccesscode">請輸入UMP服務登録碼</string>
+    <string name="membercard_v_entercardcompayname">請輸入咭面上的公司名稱</string>
+    <string name="membercard_v_entername">請輸入姓名</string>
+    <string name="membercard_v_entermembernumber">請輸入會員編號</string>
+
+    <string name="membercard_v_registerss_title">註冊</string>
+    <string name="membercard_v_registerss_message">註冊成功</string>
+    <string name="membercard_v_registerfails_title">註冊</string>
+    <string name="membercard_v_registerfails_message">註冊失敗</string>
+
+
+    <string name="membercard_v_addcardss_title">新增會員卡片</string>
+    <string name="membercard_v_addcardss_message">新增會員卡片成功</string>
+
+    <string name="membercard_v_addcardfails_title">新增會員卡失敗</string>
+    <string name="membercard_v_addcardfails_message">你已持有該卡</string>
+
+
+    <string name="membercard_v_addcardaccodefails_title">登録碼認證失敗</string>
+    <string name="membercard_v_addcardaccodefails_message">登録碼無效</string>
+
+    <string name="membercard_v_addcardaccode_tmptext1">新增 UMP藍咭  </string>
+    <string name="membercard_v_addcardaccode_tmptext2">新增 UMP橙咭  </string>
+    <string name="membercard_v_addcardaccode_tmptext3">新增 周大福珠寶有限公司職員証  </string>
+
+    <string name="membercard_v_addcardaccode_tmptextss"> 成功</string>
+    <string name="membercard_v_addcardaccode_tmptextff"> 失敗</string>
+
+
+    <!-- Register Membercard -->
+    <string name="membercard_b_delete">刪除</string>
+    <string name="membercard_b_add">加入</string>
+    <string name="membercard_alertdialog_delete">是否刪除該卡?</string>
+
+    <!-- Register Membercard -->
+    <string name="membercard_membershipnumber">會員編號:</string>
+    <string name="membercard_membername">名稱:</string>
+
+    <!-- Membercard QRScan -->
+    <string name="membercard_qrscanfails">掃描失敗,請再嘗試</string>
+
+
+    <!-- Register Membercard QRResult-->
+    <string name="membercard_resultsuccess">已成功輸入</string>
+    <string name="membercard_noquota">病人門診限額已用完 !</string>
+    <string name="membercard_voucher">醫療單據編號:</string>
+    <string name="membercard_drnumber">醫生編號 :</string>
+
+
+    <string name="membercard_qrscanresult_success">已成功輸入</string>
+    <string name="membercard_qrscanresult_fails">輸入失敗</string>
+
+
+    <!-- ForgetPassword Membercard ForgetPasswordPageOne-->
+    <string name="membercard_forgetpwdonetext">請輸入用作登記UMP之手機號碼, 密碼提示將以短訊傳送給你 !</string>
+
+    <!-- ForgetPassword Membercard ForgetPasswordPageTwo-->
+    <string name="membercard_entersmssixdigittext">六位數字認證碼己傳送到</string>
+    <string name="membercard_entersmstext">請輸入認證碼"</string>
+    <string name="membercard_resendsmstext">尚未收到認證碼?</string>
+    <string name="membercard_resendsms">重新發出</string>
+
+
+    <!-- ForgetPassword Membercard ForgetPasswordPageThree-->
+    <string name="membercard_newpasswordhint">新密碼</string>
+    <string name="membercard_confirmnewpasswordhint">確認新密碼</string>
+
+
+
+
+
+
+</resources>
